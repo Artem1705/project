@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     form.addEventListener('submit', function (e) {
         e.preventDefault();
         cleareStorage();
-        fetch('https://formcarry.com/s/bBjYw4bid', {
+        fetch('https://formcarry.com/s/ao-6bd0i7jE', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
             body: JSON.stringify(json)
